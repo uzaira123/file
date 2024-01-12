@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-link">Home</li>
+            <li class="nav-link">Skills</li>
+        
+            <li class="nav-link">Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <br>
+        
+        <h2>Hello! I am Aliza</h2>
+        <p> I am a Web designer. </p>
+        <H2>About me</H2>
+        <h5>Education</h5>
+        <p>I study in ssc part2 in karachi board</p>
+        <h2>Skills</h2>
+        <h5>Word</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped"
+           style="width:70%">70%</div>
+        </div>
+           <br>
+           <h5>Excel</h5>
+           <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped"
+           style="width:75%">75%</div>
+        </div>
+        <br>
+        <h5>Power point</h5>
+        <div class="progress">
+         <div class="progress-bar progress-bar-info progress-bar-striped"
+        style="width:60%">60%</div>
+     </div>
+     <br>
+     <h5>html$css</h5>
+     <div class="progress">
+      <div class="progress-bar progress-bar-info progress-bar-striped"
+     style="width:70%">70%</div>
+  </div>
+  <br>
+  <h5>bootstrap</h5>
+  <div class="progress">
+   <div class="progress-bar progress-bar-info progress-bar-striped"
+  style="width:80%">80%</div>
+</div>
+<br>
+
+<h5>java script</h5>
+<div class="progress">
+ <div class="progress-bar progress-bar-info progress-bar-striped"
+style="width:60%">60%</div>
+</div>
+<br>
+<h5>jQuery</h5>
+<div class="progress">
+ <div class="progress-bar progress-bar-info progress-bar-striped"
+style="width:40%">40%</div>
+</div>
+<h1 style="text-align: center;">Contact me</h1>
+ 
+  <h5>Contact number</h5>
+  <h6>03142756748</h6>
+  <h5>Email</h5>
+  <h6>Aliza2306a@Aptechorangi.com</h6>
+  <h5>Address</h5>
+  <h6>kmc908D E1556</h6>
+
+  <h2 style="text-align: center;">Message me</h2>
+  
+  <div class="container col-md-6">
+      
+    <form action="#">
+     <label for="" >Username:</label>
+     <input type="text" name="" id="t1" class="form-control mb-3">
+     <div id="d1"></div>
+    
+     <label for="">Password:</label>
+     <input type="password" name="" id="t2" class="form-control mb-3">
+     <label for="" >Message:</label>
+     <input type="text" name="" id="t1" class="form-control mb-3">
+     <div id="d2"></div>
+     <input type="send" id='btn' value="send" class="btn btn-primary btn-block">
+    </form>
+  </div>
+
+  <script>
+    $('#btn').click(function()
+    {
+       let name= $('#t1').val();
+       let pass= $('#t2').val();
+    //    alert(name)
+    //    alert(pass)
+
+    if(name=='')
+    {
+      $('#d1').html('please fill out this field');
+      $('#d1').css('color','red');
+      $('#d1').css('font-family','cursive');
+      return false;
+    }
+    else if(pass=='')
+    {
+      $('#d2').html('please fill out this field');
+      $('#d2').css('color','red');
+      return false;
+    }
+
+    });
+  </script>   
+
+
+     
+   
+    
+     
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
